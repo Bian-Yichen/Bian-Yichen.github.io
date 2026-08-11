@@ -3,54 +3,53 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Personal academic homepage" />
+    <meta
+      name="description"
+      content="Yichen Bian is a Ph.D. student working on world models, 3D computer vision, and computational photography."
+    />
     <meta name="color-scheme" content="light" />
-    <title>Yichen Bian — Academic Homepage</title>
+    <title>Yichen Bian | Academic Homepage</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!--
-      CONTENT GUIDE
-      Replace every bracketed field below with your own information.
-      Replace href="#" with the corresponding paper, project, code, CV,
-      Google Scholar, and GitHub URLs.
-    -->
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header">
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="wordmark" href="#top">[Your Name]</a>
+        <a class="wordmark" href="#top">Yichen Bian</a>
         <div class="nav-links">
           <a href="#about">About</a>
           <a href="#news">News</a>
           <a href="#publications">Publications</a>
-          <a href="#experience">Experience</a>
         </div>
       </nav>
     </header>
 
     <main id="main-content" class="page-shell">
       <section id="top" class="profile-hero" aria-labelledby="profile-name">
-        <div class="portrait-placeholder" role="img" aria-label="Profile photo placeholder">
-          <span>PROFILE</span>
-          <span>PHOTO</span>
-        </div>
+        <img
+          class="portrait"
+          src="assets/profile.jpg"
+          alt="Portrait of Yichen Bian"
+          width="998"
+          height="1600"
+        />
 
         <div class="profile-copy">
           <p class="eyebrow">Academic Homepage</p>
-          <h1 id="profile-name">[Your Name]</h1>
-          <p class="local-name">[你的中文姓名]</p>
+          <h1 id="profile-name">Yichen Bian</h1>
+          <p class="local-name">边一宸</p>
           <div class="identity-lines">
-            <p>[Your current position]</p>
-            <p>[University / Research Lab]</p>
-            <p>[City, Country]</p>
+            <p>Ph.D. Candidate</p>
+            <p>Shanghai Jiao Tong University &amp; Shanghai AI Laboratory</p>
+            <p>Shanghai, China</p>
           </div>
-          <p class="email-line">yourname [at] example [dot] com</p>
+          <div class="email-lines" aria-label="Email addresses">
+            <a href="mailto:yichen.bian.work@gmail.com">yichen.bian.work@gmail.com</a>
+            <a href="mailto:bianyichen@pjlab.org.cn">bianyichen@pjlab.org.cn</a>
+          </div>
           <div class="profile-links" aria-label="Academic profile links">
-            <a href="mailto:yourname@example.com">Email</a>
-            <a href="#">Google Scholar</a>
-            <a href="#">GitHub</a>
-            <a href="#">CV</a>
+            <a href="https://github.com/Bian-Yichen">GitHub</a>
           </div>
         </div>
       </section>
@@ -58,9 +57,17 @@
       <section id="about" class="content-section" aria-labelledby="about-heading">
         <h2 id="about-heading">About</h2>
         <div class="section-body prose">
-          <p>[Write a short introduction here. Mention your current position, affiliation, and broad research area.]</p>
-          <p>[Add a second paragraph for your academic background, collaborators, or the questions that motivate your work.]</p>
-          <p><strong>Research interests:</strong> [Research Area 1] · [Research Area 2] · [Research Area 3]</p>
+          <p>
+            I am a first-year Ph.D. student at Shanghai Jiao Tong University and
+            Shanghai AI Laboratory, co-supervised by
+            <a href="https://tianfan.info/index.html">Prof. Tianfan Xue</a> and
+            <a href="https://www.cs.sjtu.edu.cn/jiaoshiml/guleilei.html">Prof. Leilei Gu</a>.
+            Before that, I received my bachelor's degree from Beihang University.
+          </p>
+          <p>
+            <strong>Research interests:</strong>
+            World Models · 3D Computer Vision · Computational Photography
+          </p>
         </div>
       </section>
 
@@ -68,9 +75,10 @@
         <h2 id="news-heading">News</h2>
         <div class="section-body">
           <ul class="news-list">
-            <li><time>[Mon. Year]</time><span>[Add a recent academic update here.]</span></li>
-            <li><time>[Mon. Year]</time><span>[Add another recent update here.]</span></li>
-            <li><time>[Mon. Year]</time><span>[Add another recent update here.]</span></li>
+            <li>
+              <time datetime="2026-07">Jul. 2026</time>
+              <span>🎉 One paper was accepted to SIGGRAPH Asia 2026.</span>
+            </li>
           </ul>
         </div>
       </section>
@@ -79,53 +87,71 @@
         <h2 id="publications-heading">Selected Publications</h2>
         <div class="section-body publication-list">
           <article class="publication">
-            <div class="paper-thumbnail" role="img" aria-label="Paper thumbnail placeholder"><span>[Year]</span></div>
+            <img
+              class="paper-thumbnail"
+              src="assets/swiftfusion-teaser.jpg"
+              alt="SwiftFusion teaser showing efficient 4K HDR fusion in dynamic scenes"
+              loading="lazy"
+              width="1400"
+              height="746"
+            />
             <div class="paper-copy">
-              <h3>[Paper Title]</h3>
-              <p class="paper-authors">[Author One], [Your Name], [Author Three]</p>
-              <p class="paper-venue">[Conference or Journal, Year]</p>
-              <p class="paper-note">[Optional highlight, award, oral, or one-line summary]</p>
-              <div class="paper-links"><a href="#">Paper</a><a href="#">Project</a><a href="#">Code</a></div>
+              <h3>SwiftFusion: Towards Motion-Robust and Efficient 4K HDR Fusion</h3>
+              <p class="paper-authors"><strong>Yichen Bian</strong> et al.</p>
+              <p class="paper-venue">SIGGRAPH Asia 2026 Journal Track (ACM TOG)</p>
+              <p class="paper-note">Coming soon.</p>
             </div>
           </article>
 
           <article class="publication">
-            <div class="paper-thumbnail" role="img" aria-label="Paper thumbnail placeholder"><span>[Year]</span></div>
+            <img
+              class="paper-thumbnail"
+              src="assets/s2r-teaser.jpg"
+              alt="S2R-HDR teaser comparing HDR fusion under large motion and direct sunlight"
+              loading="lazy"
+              width="1400"
+              height="572"
+            />
             <div class="paper-copy">
-              <h3>[Paper Title]</h3>
-              <p class="paper-authors">[Your Name], [Coauthor One], [Coauthor Two]</p>
-              <p class="paper-venue">[Conference or Journal, Year]</p>
-              <p class="paper-note">[Optional one-line summary]</p>
-              <div class="paper-links"><a href="#">Paper</a><a href="#">Project</a><a href="#">Code</a></div>
+              <h3>S2R-HDR: A Large-Scale Rendered Dataset for HDR Fusion</h3>
+              <p class="paper-authors">
+                Yujin Wang*, Jiarui Wu*, <strong>Yichen Bian*</strong>, Fan Zhang, Tianfan Xue
+              </p>
+              <p class="paper-venue">International Conference on Learning Representations (ICLR), 2025</p>
+              <div class="paper-links">
+                <a href="https://arxiv.org/abs/2504.07667">Paper</a>
+                <a href="https://openimaginglab.github.io/S2R-HDR/">Project</a>
+              </div>
             </div>
           </article>
 
           <article class="publication">
-            <div class="paper-thumbnail" role="img" aria-label="Paper thumbnail placeholder"><span>[Year]</span></div>
+            <img
+              class="paper-thumbnail"
+              src="assets/bidm-figure1.jpg"
+              alt="BiDM Figure 1 illustrating the timestep-friendly binary structure and space patched distillation"
+              loading="lazy"
+              width="1315"
+              height="525"
+            />
             <div class="paper-copy">
-              <h3>[Paper Title]</h3>
-              <p class="paper-authors">[Author One], [Your Name], [Author Three]</p>
-              <p class="paper-venue">[Conference or Journal, Year]</p>
-              <p class="paper-note">[Optional one-line summary]</p>
-              <div class="paper-links"><a href="#">Paper</a><a href="#">Code</a></div>
+              <h3>BiDM: Pushing the Limit of Quantization for Diffusion Models</h3>
+              <p class="paper-authors">
+                Xingyu Zheng, Xianglong Liu, <strong>Yichen Bian</strong>, Xudong Ma,
+                Yulun Zhang, Jiakai Wang, Jinyang Guo, Haotong Qin
+              </p>
+              <p class="paper-venue">Advances in Neural Information Processing Systems (NeurIPS), 2024</p>
+              <div class="paper-links">
+                <a href="https://arxiv.org/abs/2412.05926">Paper</a>
+              </div>
             </div>
           </article>
-        </div>
-      </section>
-
-      <section id="experience" class="content-section" aria-labelledby="experience-heading">
-        <h2 id="experience-heading">Experience</h2>
-        <div class="section-body">
-          <ul class="experience-list">
-            <li><time>[Year–Present]</time><div><strong>[Degree / Position]</strong><span>[Institution or Company]</span></div></li>
-            <li><time>[Year–Year]</time><div><strong>[Degree / Position]</strong><span>[Institution or Company]</span></div></li>
-          </ul>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© [Year] [Your Name]. Last updated [Month Year].</p>
+      <p>© 2026 Yichen Bian. Last updated August 2026.</p>
     </footer>
   </body>
 </html>
