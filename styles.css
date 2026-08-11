@@ -110,10 +110,10 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; border-ra
 .section-body { min-width: 0; }
 .prose p { margin: 0 0 12px; }
 .prose p:last-child { margin-bottom: 0; }
-.news-list, .experience-list { margin: 0; padding: 0; list-style: none; }
-.news-list li { display: grid; grid-template-columns: 108px minmax(0, 1fr); gap: 18px; margin-bottom: 10px; }
-.news-list li:last-child { margin-bottom: 0; }
-.news-list time, .experience-list time { color: var(--faint); font-family: "Courier New", Courier, monospace; font-size: 12px; }
+.news-list, .honors-list, .experience-list { margin: 0; padding: 0; list-style: none; }
+.news-list li, .honors-list li { display: grid; grid-template-columns: 108px minmax(0, 1fr); gap: 18px; margin-bottom: 10px; }
+.news-list li:last-child, .honors-list li:last-child { margin-bottom: 0; }
+.news-list time, .honors-list time, .experience-list time { color: var(--faint); font-family: "Courier New", Courier, monospace; font-size: 12px; }
 
 .publication-list { display: flex; flex-direction: column; gap: 30px; }
 .publication { display: grid; grid-template-columns: 232px minmax(0, 1fr); gap: 24px; align-items: start; }
@@ -163,7 +163,7 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; border-ra
   .email-lines { margin: 10px 0; overflow-wrap: anywhere; }
   .profile-links { gap: 5px 12px; }
   .content-section { padding: 27px 0 30px; }
-  .news-list li, .experience-list li { grid-template-columns: 1fr; gap: 1px; }
+  .news-list li, .honors-list li, .experience-list li { grid-template-columns: 1fr; gap: 1px; }
   .publication { grid-template-columns: 1fr; gap: 13px; }
   .paper-thumbnail { width: 100%; height: auto; max-height: 210px; }
   .site-footer { text-align: left; }
